@@ -20,7 +20,7 @@
       <a href="#" class="menu"><ion-icon name="menu-outline"></ion-icon></a>
       <ul class="nav">
         <li>
-          <a class="nav-btn active" href="/" data-target="/"
+          <a class="nav-btn active" href="/" onclick="resetHeader();"
             ><ion-icon name="home-outline"></ion-icon
           ></a>
         </li>
@@ -136,21 +136,73 @@
             </textPath>
           </text>
         </svg>
-        <a href="#" class="move-down">
+        <a href="#" class="move-down" onclick="initNavigation();">
           <ion-icon name="chevron-down-outline"></ion-icon>
         </a>
       </div>
     </div>
     <!-- ***************** Main Start ***************** -->
-
-    <!-- About Section -->
-
-    <!-- Services Section -->
-
-    <!-- Portfolio Section -->
-
-    <!-- Contact Section -->
-
+    <main>
+      <!-- About Section -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="row">
+            <h1>Our Story</h1>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="img-box">
+                <img
+                  src="./images/us/maddie-smile.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+                <img
+                  src="./images/us/Bridge-kiss.jpg"
+                  alt=""
+                  class="corner-img"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <img
+                src="./images/EngageShoot/river_cuddle.jpg"
+                alt=""
+                class="section-bg-img"
+              />
+              <h4>Lorem ipsum dolor sit amet.</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatibus, vero. Impedit incidunt autem placeat debitis,
+                consectetur repellendus assumenda aut quas?
+              </p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi a
+                quam perspiciatis? Magnam, quod quis unde aliquam inventore nemo
+                recusandae porro velit! Quisquam cumque repellat soluta
+                voluptate quis, amet laborum asperiores fugiat nemo perspiciatis
+                odit consequatur harum, dolore facilis fuga dicta reprehenderit
+                pariatur. Delectus a tempore inventore deleniti magni eligendi
+                provident aliquid officia, earum cupiditate, natus, cum iste
+                deserunt! Qui perspiciatis autem inventore sit consectetur ipsum
+                earum beatae recusandae dignissimos necessitatibus quasi
+                repudiandae nobis hic iure tempore suscipit dolor nostrum harum
+                veritatis, dolores totam eum! Itaque asperiores ipsum
+                consequatur libero adipisci laudantium, temporibus nulla
+                consequuntur corporis consectetur, porro, qui animi!
+              </p>
+              <a href="#" class="section-btn">Discover More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Services Section -->
+      <section id="services" class="services"></section>
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="portfolio"></section>
+      <!-- Contact Section -->
+      <section id="contact" class="contact"></section>
+    </main>
     <!-- Main End -->
 
     <!-- JS Vendor -->
